@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Bars } from "react-loader-spinner";
-import "./App.css";
+import "./App.module.css";
 import SearchBar from "../SearchBar/SearchBar";
 import { Photo, fetchPhotos } from "../api/unsplash";
 import ImageGallery from "../ImageGallery/ImageGallery";
